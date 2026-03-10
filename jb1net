@@ -1,0 +1,4 @@
+#profile-update-interval: 1
+#profile-title: JB1 Pro 
+vless://12f01455-d439-4a5b-8075-12a05f94d3f6@144.31.125.0:33750?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&fp=chrome&sni=max.ru&pbk=LGSuC4E8mWMlOo7-ZzNrzpdt0YWw2FOlEL4v9QS2Kxs&sid=83a7df02596590ef&spx=#jb1-adm.org
+vless://a69a954e-1417-42aa-88fb-9fa60805c9a4@178.20.208.240:57500?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&fp=chrome&sni=max.ru&pbk=f2lAdloVvq9DuLdY9UuglEMFIUQVzGjBUOaO1CZVmRg&sid=c07fe51fe66aba39&spx=#ru-jb1-adm.org
