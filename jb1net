@@ -1,4 +1,4 @@
 #profile-update-interval: 1
 #profile-title: JB1 PRO
 vless://82e2123c-6cef-477c-addc-f19b0f3fa20e@5.129.198.100:57500?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&fp=chrome&sni=max.ru&pbk=_yrD3pK1dhsQFTR772Bc3J2VATkEpl5N35koS-7UclE&sid=5962619345ef4341&spx=#ns1.jb1net.ru
-
+wireguard://5.129.198.100:8888?private_key=OWj5a1pMZ2h8ofkmv2gST9mw3fRso6H5oObSB1L2JB0%3D&peer_public_key=RF0Wa1haJzD7m+eH8XwTOTrT09uhjqHf9NIzEKMSfRA%3D&pre_shared_key=oN/lZQP+YV+Afulu5RAJ5bnuW3zvMxpA0o8IRfDqPkU%3D&address=95.163.254.197/32#ns1.jb1net.ru%20/%20awg2
