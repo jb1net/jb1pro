@@ -1,4 +1,4 @@
 #profile-update-interval: 1
 #profile-title: JB1 PRO
 vless://efffe996-91b2-44bd-9c88-8f46a422137b@94.228.112.225:57500?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&fp=chrome&sni=max.ru&pbk=NeQnOqKOX3qP6wLwZo9ezkEZmplfwUbJq3pCl9OVTVs&sid=0701f9eb804869e4&spx=#ns2.jb1net.ru
-vless://c6efaa56-b79a-4730-a2ab-738e59a7ef01@94.228.112.225:636/?type=tcp&encryption=none&security=reality&pbk=zYIelR_jhcIiysEPnkI58lzINmweC7Bof7gEfJGeu1k&fp=chrome&sni=max.ru&sid=4b&spx=%2F&flow=xtls-rprx-vision#global.jb1net.ru
+vless://a140742e-9206-4003-b6e0-3c38b53b03e3@94.228.112.225:636/?type=tcp&encryption=none&security=reality&pbk=7lb0dDpmHYG6qDISkl2meFj6p0yXd6Q1XF0S3TXWSFI&fp=chrome&sni=max.ru&sid=9b275b&spx=%2F&flow=xtls-rprx-vision#global.jb1net.ru
