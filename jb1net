@@ -1,5 +1,5 @@
 #profile-update-interval: 1
-#profile-restart-interval: 1s
+profile-restart-interval: 1s
 #profile-title: JB1 PRO
 vless://f8ad77e3-3332-4c66-9407-16480b619bb2@94.228.112.225:57500?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&fp=chrome&sni=max.ru&pbk=wKO70aahQ55p8A8ydBrHzPV2jBoRbZlJd3eNECVxaT4&sid=49e495319a85baaa&spx=#ns2.jb1net.ru
 vless://1a45c0ef-7c95-4246-9efa-2abeb1130c9b@94.228.112.225:636/?type=tcp&encryption=none&security=reality&pbk=9SZ9XCw0-DBpk4uqULCrMGyVeVvKkYrQk0XS2jxwURo&fp=chrome&sni=max.ru&sid=1be962357876063c&spx=%2F&flow=xtls-rprx-vision#global.jb1net.ru
