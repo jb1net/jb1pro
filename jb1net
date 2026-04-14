@@ -1,7 +1,7 @@
 #profile-update-interval: 1
 #profile-restart-interval: 1s
 #profile-title: JB1 PRO
-vless://f8ad77e3-3332-4c66-9407-16480b619bb2@94.228.112.225:57500?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&fp=chrome&sni=max.ru&pbk=wKO70aahQ55p8A8ydBrHzPV2jBoRbZlJd3eNECVxaT4&sid=49e495319a85baaa&spx=#ns1.jb1net.ru
-vless://361ab9ab-bfb8-4dd9-bc70-c61f309ae858@94.228.112.225:636/?type=tcp&encryption=none&security=reality&pbk=yNZFAZ7QHzcX7z9LwCsGrpkce0-ny8rXetS-9UacpiE&fp=chrome&sni=max.ru&sid=6d7850&spx=%2F&flow=xtls-rprx-vision#ns2.jb1net.ru
+vless://f8ad77e3-3332-4c66-9407-16480b619bb2@94.228.112.225:57500?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&fp=chrome&sni=max.ru&pbk=wKO70aahQ55p8A8ydBrHzPV2jBoRbZlJd3eNECVxaT4&sid=49e495319a85baaa&spx=#ns2.jb1net.ru
+vless://a6ef208f-8718-4bd6-a0d6-36ce4412df91@94.228.112.225:636/?type=tcp&encryption=none&security=reality&pbk=czgiXNLu4enyJv325QwfwUkpk3xgt-LUvLP9_kTL0m8&fp=chrome&sni=max.ru&sid=c2c1&spx=%2F&flow=xtls-rprx-vision#global.jb1net.ru
 net.core.default_qdisc=fq
 net.ipv4.tcp_congestion_control=bbr
