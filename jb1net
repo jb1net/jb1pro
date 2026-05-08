@@ -3,6 +3,6 @@
 #profile-title: JB1 PRO
 vless://f8ad77e3-3332-4c66-9407-16480b619bb2@94.228.112.225:57500?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&fp=chrome&sni=max.ru&pbk=wKO70aahQ55p8A8ydBrHzPV2jBoRbZlJd3eNECVxaT4&sid=49e495319a85baaa&spx=#IvankoVPN
 vless://e352d55b-9228-4824-8546-2a54ef565f6d@94.228.112.225:636/?type=tcp&encryption=none&security=reality&pbk=KDCxuvG8gYMUACqiuiDqOvCSpfWmSbL2_2YzK33IF0s&fp=chrome&sni=max.ru&sid=23cd68bde00521fd&spx=%2F&flow=xtls-rprx-vision#ManzerVPN
-vless://d8e504b9-3aa4-410b-9c64-f46f90baa265@93.77.167.49:57500?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&fp=chrome&sni=max.ru&pbk=uqZt-dSyNvd576HkSsQtbtEIGTpWwyQcx1qD-oTFzGQ&sid=4d99f787b393690b&spx=#OptamanVPN
+vless://00b33953-97dc-4f9d-aec6-8aff99d6581f@93.77.167.49:636/?type=tcp&encryption=none&security=reality&pbk=VJNZ4xbrkknWoI-8qNX8RbSr2glE54gqOBUF4jLmFkM&fp=chrome&sni=max.ru&sid=4b6b01&spx=%2F&flow=xtls-rprx-vision#OptamanVPN
 net.core.default_qdisc=fq
 net.ipv4.tcp_congestion_control=bbr
