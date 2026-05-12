@@ -1,7 +1,7 @@
 #profile-update-interval: 1
 #profile-restart-interval: s
 #profile-title: JB1 PRO
-vless://a2622d7a-7097-488f-bc29-098f517f08f1@93.77.167.49:465?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&fp=chrome&sni=max.ru&pbk=Sc41YAyBORALqLsKih1SVXN9L-yZJj8iVwmuYUKv-Cc&sid=7e8df4156cbc3a1d&spx=#IvankoVPN
-vless://00b33953-97dc-4f9d-aec6-8aff99d6581f@93.77.167.49:636/?type=tcp&encryption=none&security=reality&pbk=9zIPn3qVoxiHvWigwwtcEVkP6JYHE7xaJ57UVITwDw0&fp=chrome&sni=max.ru&sid=ab7c05e54639b475&spx=%2F&flow=xtls-rprx-vision#ManzerVPN
+vless://4744d9bd-114e-4126-9454-cfb4c524e085@93.77.167.49:57500?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&fp=chrome&sni=max.ru&pbk=kv0FA6v_XKBgf9lThqUp5l0UnPhf3Ggl7tLP7i1PKlA&sid=9e63b6441fbd6efb&spx=#IvankoVPN
+vless://00b33953-97dc-4f9d-aec6-8aff99d6581f@93.77.167.49:465/?type=tcp&encryption=none&security=reality&pbk=ui87XWuGZOz9OGX0aJFzrePQe4axWUAMEHrTqS30cGM&fp=chrome&sni=max.ru&sid=f6&spx=%2F&flow=xtls-rprx-vision#ManzerVPN
 net.core.default_qdisc=fq
 net.ipv4.tcp_congestion_control=bbr
