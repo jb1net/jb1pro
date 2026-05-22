@@ -4,6 +4,7 @@
 #subscription-userinfo: upload=0; download=0; total=0; expire=0
 
 vless://4744d9bd-114e-4126-9454-cfb4c524e085@93.77.167.49:57500?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&fp=chrome&sni=max.ru&pbk=kv0FA6v_XKBgf9lThqUp5l0UnPhf3Ggl7tLP7i1PKlA&sid=9e63b6441fbd6efb&spx=#IvankoVPN
+vless://f8ad77e3-3332-4c66-9407-16480b619bb2@94.228.112.225:57500?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&fp=chrome&sni=max.ru&pbk=wKO70aahQ55p8A8ydBrHzPV2jBoRbZlJd3eNECVxaT4&sid=49e495319a85baaa&spx=#IvankoCDN
 vless://id1@93.77.167.49:636/?type=tcp&encryption=none&security=reality&pbk=bakunky5K7RV-SXdXO-qyHx1TCcozCV9IBrkIDyPLks&fp=chrome&sni=max.ru&sid=c49c29&spx=%2F&flow=xtls-rprx-vision#ManzerVPN
 
 #net.core.default_qdisc=fq
