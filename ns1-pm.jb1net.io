@@ -5,7 +5,7 @@
 
 vless://4744d9bd-114e-4126-9454-cfb4c524e085@93.77.167.49:57500?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&fp=chrome&sni=max.ru&pbk=kv0FA6v_XKBgf9lThqUp5l0UnPhf3Ggl7tLP7i1PKlA&sid=9e63b6441fbd6efb&spx=#IvankoVPN
 vless://id1@93.77.167.49:636/?type=tcp&encryption=none&security=reality&pbk=bakunky5K7RV-SXdXO-qyHx1TCcozCV9IBrkIDyPLks&fp=chrome&sni=max.ru&sid=c49c29&spx=%2F&flow=xtls-rprx-vision#ManzerVPN
-vless://ce91a570-0fe9-4c17-90b5-79c31c3c8c05@94.228.112.225:636/?type=tcp&encryption=none&security=reality&pbk=HRiAEjjZ6DXHdNhvp9LUzG0rcT64DUVP5JMPV6M8jH8&fp=chrome&sid=92&spx=%2F&flow=xtls-rprx-vision#OptamanCDN
+vless://0adb5273-9395-4f4a-a457-8ed72ce137ca@94.228.112.225:636?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=D2800pdPBs9opS33oZWth2n46fxWko-2Uj0jhjEmI3E&security=reality&sid=8ccf5dfd&sni=max.ru&spx=%2Fh9y3HAvXHvh4smp&type=tcp#OptamanCDN
 
 #net.core.default_qdisc=fq
 #net.ipv4.tcp_congestion_control=bbr
