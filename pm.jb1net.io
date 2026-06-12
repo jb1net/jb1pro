@@ -3,7 +3,7 @@
 #profile-restart-interval: s
 
 vless://4744d9bd-114e-4126-9454-cfb4c524e085@93.77.167.49:57500?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&fp=chrome&sni=max.ru&pbk=kv0FA6v_XKBgf9lThqUp5l0UnPhf3Ggl7tLP7i1PKlA&sid=9e63b6441fbd6efb&spx=#IvankoVPN
-vless://ab52b528-be52-4f75-9f27-44351125541e@93.77.167.49:636?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=-q0mR85cq0Xe-Ed_fqADQ8_QdXUzdWbgUfIY1HMo_xw&security=reality&sid=fecc7d34d8&sni=max.ru&spx=%2FOPvbhS3vNyB7Z54&type=tcp#ManzerVPN
+vless://3226f56e-2c48-4a79-a297-d57d1a1cb748@93.77.167.49:636?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=BXuTXFdADCzAJkmN5WktDl_YDHpzXKNFfrAno_Yot2Q&security=reality&sid=70&sni=max.ru&spx=%2F9a9ej1dAvDBiDIP&type=tcp#ManzerVPN
 hysteria2://t102fgjysgy025ut@2.26.83.254:8443?alpn=h3&ech=AGL%2BDQBeAAAgACD9%2FcweOBxvh5KxOPjCLV1W%2B6nyCsGF4orrtAgN0mQeFAAkAAEAAQABAAIAAQADAAIAAQACAAIAAgADAAMAAQADAAIAAwADAA9ubC1qYjFuZXQuaHMudmMAAA%3D%3D&fp=chrome&security=tls&sni=nl-jb1net.hs.vc#HelleinVPN
 hysteria2://u5vb9bzb9lmndrva@93.77.167.49:8443?alpn=h3&ech=AGL%2BDQBeAAAgACBnWAFqSOE4DPQK%2B2CDu0xgaXzMiI1u2v3og6LuhA5wcgAkAAEAAQABAAIAAQADAAIAAQACAAIAAgADAAMAAQADAAIAAwADAA9ydS1qYjFuZXQuaHMudmMAAA%3D%3D&fp=chrome&security=tls&sni=ru-jb1net.hs.vc#CapellaVPN
 vless://0adb5273-9395-4f4a-a457-8ed72ce137ca@94.228.112.225:636?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=D2800pdPBs9opS33oZWth2n46fxWko-2Uj0jhjEmI3E&security=reality&sid=8ccf5dfd&sni=max.ru&spx=%2Fh9y3HAvXHvh4smp&type=tcp#OptamanCDN
