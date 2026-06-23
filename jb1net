@@ -3,6 +3,7 @@
 #profile-restart-interval: s
 
 vless://64ea0ae4-54fc-4787-9e4a-edea5955d077@93.77.167.49:57500?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&fp=chrome&sni=zoo.vprok.ru&pbk=-rFc4bjyvLpkZ4znnwP3WOe3QJDmbURh52TM2sv1q0U&sid=f96993edf88e03e9&spx=#IvankoVPN
+vless://2e3160a1-02cc-4032-bdac-8aa75502c288@193.124.131.183:636?authority=&encryption=none&fp=firefox&pbk=N2-dojq6zkg1Ubki9AFjkDLNcZGAnnUu6GsbwpR-PX8&security=reality&serviceName=ldap&sid=4e85863c94&sni=zoo.vprok.ru&spx=%2FvSfcigsuuQhzYRa&type=grpc#ChadwickCDN
 
 #net.core.default_qdisc=fq
 #net.ipv4.tcp_congestion_control=bbr
