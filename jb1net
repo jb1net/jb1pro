@@ -1,9 +1,8 @@
-#profile-title: JB1 PRO
+#profile-title: JB1NET
 #profile-update-interval: 1
 #profile-restart-interval: s
 
-vless://4744d9bd-114e-4126-9454-cfb4c524e085@93.77.167.49:57500?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&fp=chrome&sni=max.ru&pbk=kv0FA6v_XKBgf9lThqUp5l0UnPhf3Ggl7tLP7i1PKlA&sid=9e63b6441fbd6efb&spx=#IvankoVPN
-vless://fc9b0e9f-9a08-479b-8a7f-d33ebe24cb88@193.124.131.183:636?encryption=none&fp=chrome&pbk=k0JqVPMoZo_11E_qGhSkf6x72LxNS0eM30QTCmUZVHs&security=reality&sid=ee1cf5a3a0&sni=max.ru&spx=%2FpgjZo1OeRRRiiOm&type=tcp#ChadwickCDN
+vless://81f495e2-7c9a-4d5d-a0ed-6934d078d63e@193.124.131.183:22443?authority=&encryption=none&fp=firefox&pbk=d8nsZ8EnXYrge8WEKZLy-QNgEccJDVXtSPA9kFPi4SE&security=reality&serviceName=grpc&sid=057daf5cc1e84b&sni=zoo.vprok.ru&spx=%2Fbv6pwGdIhDrpZyO&type=grpc#IvankoVPN
 
 #net.core.default_qdisc=fq
 #net.ipv4.tcp_congestion_control=bbr
