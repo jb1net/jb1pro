@@ -5,7 +5,7 @@
 -
 -
 -
-vless://21f67ef0-9e97-4771-8514-a9759fcc122d@193.124.131.183:636?authority=&encryption=none&fp=chrome&pbk=s2jMP94z3rmjaLVe4T5hcWQumn8vU0DY541zTMQHfxo&security=reality&serviceName=ldap&sid=16752f&sni=max.ru&spx=%2FtpHq8r8moEItw80&type=grpc#ChadwickCDN
+vless://11fd1070-f316-4211-b64c-666837c412e7@193.124.131.183:636?encryption=none&fp=chrome&pbk=kIEw98ihTLstbK6NeopfFY_Kq6ODghhkIUEbfdZ5I1E&security=reality&sid=a3&sni=max.ru&spx=%2FvNXcvv6F6E4px1V&type=tcp#ChadwickCDN
 
 #net.core.default_qdisc=fq
 #net.ipv4.tcp_congestion_control=bbr
