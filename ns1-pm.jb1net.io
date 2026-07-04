@@ -7,7 +7,5 @@
 vless://9c3fc9bd-8c59-421f-ba2e-1b8f8f244422@ru-jb1net.mikata.ru:636?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=cyLEVczMkxnYMHyZS5Eq9_1VtnH129AZuX0JP3M5dn0&security=reality&sid=9f028f92b71f1b&sni=yandex.com.ge&spx=%2FbshTtFvd4i1EbDz&type=tcp#ManzerVPN
 hysteria2://jblm717dpgm2cxde@ru-jb1net.mikata.ru:22443?alpn=h3&ech=AGb%2BDQBiAAAgACDYg6MBiLjaErgAK2pbD%2BUWUWG%2BmQeX0IWhxyp8m%2BOOQAAkAAEAAQABAAIAAQADAAIAAQACAAIAAgADAAMAAQADAAIAAwADABNydS1qYjFuZXQubWlrYXRhLnJ1AAA%3D&fp=firefox&security=tls&sni=ru-jb1net.mikata.ru#OptamanVPN
 
-https://raw.githack.com/igareck/vpn-configs-for-russia/main/Vless-Reality-White-Lists-Rus-Mobile.txt
-
 #net.core.default_qdisc=cake
 #net.ipv4.tcp_congestion_control=bbr
