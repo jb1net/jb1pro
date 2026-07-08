@@ -2,10 +2,10 @@
 #profile-update-interval: 1
 #profile-restart-interval: s
 
+vless://471a9b99-0b3e-43a9-9b7b-77bd633e930c@93.77.164.56:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=zz7TnVxM9A30qNcHpa9SdsoWnN9sgsgsw2gbCt_JuRc&security=reality&sid=13a3&sni=yandex.com.am&spx=%2Fq7kEKCvqKVGxAY6&type=tcp#ManzerVPN
 -
 -
-vless://9c3fc9bd-8c59-421f-ba2e-1b8f8f244422@ru-jb1net.mikata.ru:636?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=cyLEVczMkxnYMHyZS5Eq9_1VtnH129AZuX0JP3M5dn0&security=reality&sid=9f028f92b71f1b&sni=yandex.com.ge&spx=%2FbshTtFvd4i1EbDz&type=tcp#ManzerVPN
-hysteria2://jblm717dpgm2cxde@ru-jb1net.mikata.ru:22443?alpn=h3&ech=AGb%2BDQBiAAAgACDYg6MBiLjaErgAK2pbD%2BUWUWG%2BmQeX0IWhxyp8m%2BOOQAAkAAEAAQABAAIAAQADAAIAAQACAAIAAgADAAMAAQADAAIAAwADABNydS1qYjFuZXQubWlrYXRhLnJ1AAA%3D&fp=firefox&security=tls&sni=ru-jb1net.mikata.ru#OptamanVPN
+-
 
 #net.core.default_qdisc=cake
 #net.ipv4.tcp_congestion_control=bbr
