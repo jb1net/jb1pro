@@ -1,11 +1,10 @@
 #profile-title: JB1NET-VIP
-#profile-update-interval: 1
+#profile-update-interval: s
 #profile-restart-interval: s
 
 vless://3670efb2-3a81-4676-96fd-49caba90bbeb@ru-jb1net.d-med.ru:636?alpn=h2%2Chttp%2F1.1&ech=AGX%2BDQBhAAAgACDUTBxpSeFBV2DK%2FpEZdr%2BtRCKCH112LeD5s3eBQQB1BQAkAAEAAQABAAIAAQADAAIAAQACAAIAAgADAAMAAQADAAIAAwADABJydS1qYjFuZXQuZC1tZWQucnUAAA%3D%3D&encryption=none&flow=xtls-rprx-vision&fp=chrome&security=tls&sni=ru-jb1net.d-med.ru&type=tcp#ManzerVPN
 hysteria2://g8uoyfu53c2uyvj4@ru-jb1net.d-med.ru:22443?alpn=h3&ech=AGX%2BDQBhAAAgACAuIA5g5c99A7uowIj%2Fx1XQlqRB8aVVfvSLKSTihKMxeAAkAAEAAQABAAIAAQADAAIAAQACAAIAAgADAAMAAQADAAIAAwADABJydS1qYjFuZXQuZC1tZWQucnUAAA%3D%3D&fp=firefox&security=tls&sni=ru-jb1net.d-med.ru#OptamanVPN
+vless://ed7df636-1f14-47d2-b070-5c74f7a0a718@ru-jb1net.d-med.ru:563?type=grpc&serviceName=nntps&security=reality&pbk=jYejPQledrDZiy8ILzzFPS_Sy4nnuk3m2OEl1iShaWg&sid=d740d4&fp=firefox&sni=finance.ozon.ru#ChadwickCDN
 -
--
-
 #net.core.default_qdisc=cake
 #net.ipv4.tcp_congestion_control=bbr
