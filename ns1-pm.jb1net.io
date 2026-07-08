@@ -2,7 +2,7 @@
 #profile-update-interval: 1
 #profile-restart-interval: s
 
-vless://471a9b99-0b3e-43a9-9b7b-77bd633e930c@93.77.164.56:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=zz7TnVxM9A30qNcHpa9SdsoWnN9sgsgsw2gbCt_JuRc&security=reality&sid=13a3&sni=yandex.com.am&spx=%2Fq7kEKCvqKVGxAY6&type=tcp#ManzerVPN
+vless://3670efb2-3a81-4676-96fd-49caba90bbeb@ru-jb1net.d-med.ru:636?alpn=h2%2Chttp%2F1.1&ech=AGX%2BDQBhAAAgACDUTBxpSeFBV2DK%2FpEZdr%2BtRCKCH112LeD5s3eBQQB1BQAkAAEAAQABAAIAAQADAAIAAQACAAIAAgADAAMAAQADAAIAAwADABJydS1qYjFuZXQuZC1tZWQucnUAAA%3D%3D&encryption=none&flow=xtls-rprx-vision&fp=chrome&security=tls&sni=ru-jb1net.d-med.ru&type=tcp#ManzerVPN
 -
 -
 -
