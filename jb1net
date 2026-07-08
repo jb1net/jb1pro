@@ -4,7 +4,7 @@
 
 vless://3670efb2-3a81-4676-96fd-49caba90bbeb@ru-jb1net.d-med.ru:636?alpn=h2%2Chttp%2F1.1&ech=AGX%2BDQBhAAAgACDUTBxpSeFBV2DK%2FpEZdr%2BtRCKCH112LeD5s3eBQQB1BQAkAAEAAQABAAIAAQADAAIAAQACAAIAAgADAAMAAQADAAIAAwADABJydS1qYjFuZXQuZC1tZWQucnUAAA%3D%3D&encryption=none&flow=xtls-rprx-vision&fp=chrome&security=tls&sni=ru-jb1net.d-med.ru&type=tcp#ManzerVPN
 hysteria2://g8uoyfu53c2uyvj4@ru-jb1net.d-med.ru:22443?alpn=h3&ech=AGX%2BDQBhAAAgACAuIA5g5c99A7uowIj%2Fx1XQlqRB8aVVfvSLKSTihKMxeAAkAAEAAQABAAIAAQADAAIAAQACAAIAAgADAAMAAQADAAIAAwADABJydS1qYjFuZXQuZC1tZWQucnUAAA%3D%3D&fp=firefox&security=tls&sni=ru-jb1net.d-med.ru#OptamanVPN
-vless://d09bc971-ad4d-4d0f-b090-84ddd887b090@ru-jb1net.d-med.ru:563?type=grpc&serviceName=nntps&security=reality&pbk=-9cuL04z-yDF1W7DSZrvD_L971C8K_WPtKKK3D3DYUw&sid=4ae459ef9c&fp=firefox&sni=finance.ozon.ru#ChadwickCDN
+vless://7cf98dfd-0ed6-49da-a5b5-c64c9484e320@ru-jb1net.d-med.ru:4443?type=tcp&security=reality&pbk=p81sZTMKwV9saZMg-SbQrvnAPw1zgB7bJASQF8Wyrk4&sid=76fe45f7&fp=firefox&sni=finance.ozon.ru&flow=xtls-rprx-vision#ChadwickCDN
 
 #net.core.default_qdisc=fq
 #net.ipv4.tcp_congestion_control=bbr
