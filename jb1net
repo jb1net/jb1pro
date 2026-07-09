@@ -1,5 +1,5 @@
 #profile-title: JB1NET
-#profile-update-interval: s
+#profile-update-interval: 1
 #profile-restart-interval: s
 
 vless://dbe8273a-4b27-01bb-b52d-b5169ee0523d@ru-jb1net.d-med.ru:636?alpn=h2%2Chttp%2F1.1&authority=&ech=AGX%2BDQBhAAAgACC5PjmLURqdCttXG7tLwDOFj9Te0zSegxPQxbDIHSwoHAAkAAEAAQABAAIAAQADAAIAAQACAAIAAgADAAMAAQADAAIAAwADABJydS1qYjFuZXQuZC1tZWQucnUAAA%3D%3D&encryption=none&fm=%7B%22tcp%22%3A%5B%7B%22settings%22%3A%7B%22delays%22%3A%5B%5D%2C%22lengths%22%3A%5B%22100-200%22%5D%2C%22maxSplit%22%3A%22%22%2C%22packets%22%3A%22tlshello%22%7D%2C%22type%22%3A%22fragment%22%7D%5D%7D&fp=chrome&security=tls&serviceName=ldap&sni=ru-jb1net.d-med.ru&type=grpc#ManzerVPN
