@@ -2,7 +2,7 @@
 #profile-update-interval: s
 #profile-restart-interval: s
 
-vless://5d84dbcb-3d6b-4598-a4b5-6b5a101501c5@ru-jb1net.d-med.ru:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=TlHr9Kw66prmdceZaUbV_x_iIYCxIWfLXaNzyhInIU4&security=reality&sid=107b7ad21165ac&sni=cloud.yandex&spx=%2F5kReraC2zJcd2Ui&type=tcp#IvankoCDN
+vless://81767ef6-ef3f-492e-9e3a-dcb59b51f41f@93.77.164.56:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=HYrP8u-r1MjP95gr-X3IGRRWKU8YKRnF32R93ICETWg&security=reality&sid=201b98b72a&sni=cloud.yandex.com&spx=%2F3PYn3mBBM6keojR&type=tcp#IvankoCDN
 vless://413c869e-0381-44b9-8052-e726354fec8b@ru-jb1net.d-med.ru:4443?type=ws&path=%2Fstream-data-v2&host=ru-jb1net.d-med.ru&security=reality&pbk=wpPFgbYWFsS2lJEqfZ8REvbWzz9G2TtjqDGtcQUfWT8&sid=92&fp=firefox&sni=finance.ozon.ru#ChadwickCDN
 
 #net.core.default_qdisc=fq
