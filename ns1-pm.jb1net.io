@@ -4,9 +4,9 @@
 
 vless://25f0c9bc-f00f-4fe6-b53b-2b6f04143df7@138.16.178.155:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=vk.ru&fp=chrome&pbk=ywMlr1H6CC-pl261wojwLWRl5fRmvuwvHZfgS8Bzr1E&sid=c8e2b1f4&type=tcp#ChadwickCDN
 tuic://90384b8a-4be3-466d-bacb-4d0cbbc439fd:e454e24e87af48ed@138.16.178.155:4443?congestion_control=bbr&sni=cdn.cloudflare.com&alpn=h3&insecure=1&udp_relay_mode=native#HelleinVPN
-vless://c1436e6f-1627-4eff-9e6f-f9b5cd925f6b@138.16.178.155:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.yandex.ru&fp=chrome&pbk=wG5Ed5YzcR5pcxcxCVg-vflZo1Ndz33OiN134JEyuzs&sid=a1b2c3d4&type=tcp#IvankoCDN
-vless://9f5c5a04-01dd-4a32-ad80-b800e3b4539c@138.16.178.155:636?encryption=none&flow=xtls-rprx-vision&security=reality&sni=oauth.yandex.ru&fp=chrome&pbk=RklThLEyrZ3X5A7rm6GPHKOdgaKCRHLcUQ37mX2EuhQ&sid=b7c3d9e1&type=tcp#ManzerVPN
-hy2://efc9d2890a8a43e2@138.16.178.155:24443?insecure=1&sni=www.yandex.ru&obfs=salamander&obfs-password=60ca66c44d71#OptamanVPN
+vless://c1436e6f-1627-4eff-9e6f-f9b5cd925f6b@138.16.178.155:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=vk.ru&fp=chrome&pbk=wG5Ed5YzcR5pcxcxCVg-vflZo1Ndz33OiN134JEyuzs&sid=a1b2c3d4&type=tcp#IvankoCDN
+vless://9f5c5a04-01dd-4a32-ad80-b800e3b4539c@138.16.178.155:636?encryption=none&flow=xtls-rprx-vision&security=reality&sni=vk.ru&fp=chrome&pbk=RklThLEyrZ3X5A7rm6GPHKOdgaKCRHLcUQ37mX2EuhQ&sid=b7c3d9e1&type=tcp#ManzerVPN
+hy2://efc9d2890a8a43e2@138.16.178.155:24443?insecure=1&sni=cdn.cloudflare.com&obfs=salamander&obfs-password=60ca66c44d71#OptamanVPN
 
 #net.core.default_qdisc=cake
 #net.ipv4.tcp_congestion_control=bbr
