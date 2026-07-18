@@ -2,10 +2,11 @@
 #profile-update-interval: s
 #profile-restart-interval: s
 
-vless://5d84dbcb-3d6b-4598-a4b5-6b5a101501c5@ru-jb1net.d-med.ru:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=TlHr9Kw66prmdceZaUbV_x_iIYCxIWfLXaNzyhInIU4&security=reality&sid=107b7ad21165ac&sni=cloud.yandex&spx=%2F5kReraC2zJcd2Ui&type=tcp#IvankoCDN
-vless://dbe8273a-4b27-01bb-b52d-b5169ee0523d@ru-jb1net.d-med.ru:636?alpn=h2%2Chttp%2F1.1&authority=&ech=AGX%2BDQBhAAAgACC5PjmLURqdCttXG7tLwDOFj9Te0zSegxPQxbDIHSwoHAAkAAEAAQABAAIAAQADAAIAAQACAAIAAgADAAMAAQADAAIAAwADABJydS1qYjFuZXQuZC1tZWQucnUAAA%3D%3D&encryption=none&fm=%7B%22tcp%22%3A%5B%7B%22settings%22%3A%7B%22delays%22%3A%5B%5D%2C%22lengths%22%3A%5B%22100-200%22%5D%2C%22maxSplit%22%3A%22%22%2C%22packets%22%3A%22tlshello%22%7D%2C%22type%22%3A%22fragment%22%7D%5D%7D&fp=chrome&security=tls&serviceName=ldap&sni=ru-jb1net.d-med.ru&type=grpc#ManzerVPN
-hysteria2://u94ttlbwmqz66yg5@ru-jb1net.d-med.ru:22443?alpn=h3&ech=AGX%2BDQBhAAAgACA6Yf%2FfGF5FOiA24TNWNFbTo2l9p1BNDTbAlF6myxl1LgAkAAEAAQABAAIAAQADAAIAAQACAAIAAgADAAMAAQADAAIAAwADABJydS1qYjFuZXQuZC1tZWQucnUAAA%3D%3D&fp=firefox&security=tls&sni=ru-jb1net.d-med.ru#OptamanVPN
-vless://413c869e-0381-44b9-8052-e726354fec8b@ru-jb1net.d-med.ru:4443?type=ws&path=%2Fstream-data-v2&host=ru-jb1net.d-med.ru&security=reality&pbk=wpPFgbYWFsS2lJEqfZ8REvbWzz9G2TtjqDGtcQUfWT8&sid=92&fp=firefox&sni=finance.ozon.ru#ChadwickCDN
+vless://c1436e6f-1627-4eff-9e6f-f9b5cd925f6b@138.16.178.155:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yandex.ru&fp=chrome&pbk=wG5Ed5YzcR5pcxcxCVg-vflZo1Ndz33OiN134JEyuzs&sid=a1b2c3d4&type=tcp#IvankoCDN
+vless://9f5c5a04-01dd-4a32-ad80-b800e3b4539c@138.16.178.155:636?encryption=none&security=tls&sni=ldap.google.com&allowInsecure=1&type=tcp#ManzerVPN
+hy2://efc9d2890a8a43e2@138.16.178.155:24443?insecure=1&sni=cdn.cloudflare.com&obfs=salamander&obfs-password=60ca66c44d71#OptamanVPN
+vless://25f0c9bc-f00f-4fe6-b53b-2b6f04143df7@138.16.178.155:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=vk.ru&fp=chrome&pbk=ywMlr1H6CC-pl261wojwLWRl5fRmvuwvHZfgS8Bzr1E&sid=c8e2b1f4&type=tcp#ChadwickCDN
+tuic://90384b8a-4be3-466d-bacb-4d0cbbc439fd:e454e24e87af48ed@138.16.178.155:4443?congestion_control=bbr&sni=cdn.cloudflare.com&alpn=h3&insecure=1#HelleinVPN
 
 #net.core.default_qdisc=cake
 #net.ipv4.tcp_congestion_control=bbr
