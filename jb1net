@@ -1,9 +1,12 @@
 #profile-title: JB1NET
-#profile-update-interval: s
-#profile-restart-interval: s
+#profile-update-interval: 1
+#profile-sort: IvankoCDN,ChadwickCDN,ManzerVPN,HelleinVPN,OptamanVPN
 
-vless://81767ef6-ef3f-492e-9e3a-dcb59b51f41f@93.77.164.56:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=HYrP8u-r1MjP95gr-X3IGRRWKU8YKRnF32R93ICETWg&security=reality&sid=201b98b72a&sni=cloud.yandex.com&spx=%2F3PYn3mBBM6keojR&type=tcp#IvankoCDN
-vless://413c869e-0381-44b9-8052-e726354fec8b@ru-jb1net.d-med.ru:4443?type=ws&path=%2Fstream-data-v2&host=ru-jb1net.d-med.ru&security=reality&pbk=wpPFgbYWFsS2lJEqfZ8REvbWzz9G2TtjqDGtcQUfWT8&sid=92&fp=firefox&sni=finance.ozon.ru#ChadwickCDN
+vless://c1436e6f-1627-4eff-9e6f-f9b5cd925f6b@138.16.178.155:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=vk.ru&fp=chrome&pbk=ywMlr1H6CC-pl261wojwLWRl5fRmvuwvHZfgS8Bzr1E&sid=a1b2c3d4&type=tcp#IvankoCDN
+vless://25f0c9bc-f00f-4fe6-b53b-2b6f04143df7@138.16.178.155:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=vk.ru&fp=chrome&pbk=ywMlr1H6CC-pl261wojwLWRl5fRmvuwvHZfgS8Bzr1E&sid=c8e2b1f4&type=tcp#ChadwickCDN
+vless://9f5c5a04-01dd-4a32-ad80-b800e3b4539c@138.16.178.155:636?encryption=none&flow=xtls-rprx-vision&security=reality&sni=vk.ru&fp=chrome&pbk=ywMlr1H6CC-pl261wojwLWRl5fRmvuwvHZfgS8Bzr1E&sid=b7c3d9e1&type=tcp#ManzerVPN
+tuic://90384b8a-4be3-466d-bacb-4d0cbbc439fd:e454e24e87af48ed@138.16.178.155:4443?congestion_control=bbr&sni=cdn.cloudflare.com&alpn=h3&insecure=1&udp_relay_mode=native#HelleinVPN
+hy2://efc9d2890a8a43e2@138.16.178.155:24443?insecure=1&sni=cdn.cloudflare.com&obfs=salamander&obfs-password=60ca66c44d71#OptamanVPN
 
-#net.core.default_qdisc=fq
+#net.core.default_qdisc=cake
 #net.ipv4.tcp_congestion_control=bbr
