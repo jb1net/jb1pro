@@ -1,8 +1,8 @@
 #profile-title: JB1NET
 #profile-update-interval: 1
 #profile-sort: IvankoCDN,ChadwickCDN,ManzerVPN,HelleinVPN,OptamanVPN
-#failover-order: HelleinVPN,OptamanVPN,ManzerVPN,ChadwickCDN,IvankoCDN
-#latency-ms: IvankoCDN=4088,ChadwickCDN=885,ManzerVPN=816,HelleinVPN=50,OptamanVPN=50
+#failover-order: IvankoCDN,ChadwickCDN,ManzerVPN,HelleinVPN,OptamanVPN
+#latency-ms: IvankoCDN=0,ChadwickCDN=0,ManzerVPN=0,HelleinVPN=0,OptamanVPN=0
 #health-check-interval: 30
 #health-check-timeout: 5000
 #auto-failover: true
@@ -25,6 +25,12 @@
 #anti-throttle-udp: HelleinVPN,OptamanVPN
 #stealth-whitelist: IvankoCDN,ChadwickCDN
 #geo-anywhere: all
+#whitelist-fingerprint: vk.ru
+#tspu-legit-inbound: REALITY-mimics-vk.ru
+#ru-resource-access: IvankoCDN,ChadwickCDN,ManzerVPN
+#global-stealth-tcp: IvankoCDN,ChadwickCDN,ManzerVPN
+#global-stealth-udp: HelleinVPN,OptamanVPN,HelleinVPN-d2,OptamanVPN-d2
+#decoy-if-blocked: HelleinVPN-d2,d3 OptamanVPN-d2,d3
 
 vless://c1436e6f-1627-4eff-9e6f-f9b5cd925f6b@161.104.88.180:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=vk.ru&fp=chrome&pbk=ywMlr1H6CC-pl261wojwLWRl5fRmvuwvHZfgS8Bzr1E&sid=a1b2c3d4&type=tcp#IvankoCDN
 vless://25f0c9bc-f00f-4fe6-b53b-2b6f04143df7@161.104.88.180:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=vk.ru&fp=chrome&pbk=ywMlr1H6CC-pl261wojwLWRl5fRmvuwvHZfgS8Bzr1E&sid=c8e2b1f4&type=tcp#ChadwickCDN
