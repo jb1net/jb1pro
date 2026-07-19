@@ -1,8 +1,8 @@
 #profile-title: JB1NET-VIP
 #profile-update-interval: 1
 #profile-sort: IvankoCDN,ChadwickCDN,ManzerVPN,HelleinVPN,OptamanVPN
-#failover-order: IvankoCDN,ChadwickCDN,ManzerVPN,HelleinVPN,OptamanVPN
-#latency-ms: IvankoCDN=0,ChadwickCDN=0,ManzerVPN=0,HelleinVPN=0,OptamanVPN=0
+#failover-order: ChadwickCDN,ManzerVPN,IvankoCDN,HelleinVPN,OptamanVPN
+#latency-ms: IvankoCDN=912,ChadwickCDN=615,ManzerVPN=693,HelleinVPN=1940,OptamanVPN=1940
 #health-check-interval: 30
 #health-check-timeout: 5000
 #auto-failover: true
