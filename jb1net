@@ -1,4 +1,4 @@
-#profile-title: JB1NET-VIP
+#profile-title: JB1NET
 #profile-update-interval: 1
 #profile-sort: IvankoCDN,ChadwickCDN,ManzerVPN,HelleinVPN,OptamanVPN
 #failover-order: HelleinVPN,OptamanVPN,ManzerVPN,ChadwickCDN,IvankoCDN
