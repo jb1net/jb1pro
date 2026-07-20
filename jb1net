@@ -1,13 +1,32 @@
 #profile-title: JB1NET
-#default-profile: StormCDN
-#failover-order: StormCDN,ThunderCDN,NexusVPN,IvankoCDN,ChadwickCDN,ManzerVPN,FortressCDN,BastionCDN,CitadelVPN
+#revision: 1784594890
+#jb1net-sub: wl=https://cdn-jb1net.d-med.ru:2095/jb1net;cluster=triple;cascade=1;nodes=3;raw=1
+#jb1net-auto: rev=cascade;poll=5m;whitelist=443|2095;apply=1;reconn=update|degrade|fail|net;same-profile-first;soft=1;url-test=1
+#default-profile: IvankoCDN
+#failover-order: L1-local > L2-peers > L3-udp
+#cluster-entry: contell
+#cluster-contell: 161.104.88.180
+#cluster-vdsina: 138.16.178.155
+#cluster-play2go: nl-jb1net.hs.vc
+#health-check-interval: 45
+#auto-failover: true
 
-vless://f1a2b3c4-d5e6-4789-f012-111122223333@2.26.83.254:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=vk.ru&fp=chrome&pbk=ywMlr1H6CC-pl261wojwLWRl5fRmvuwvHZfgS8Bzr1E&sid=a1b2c3d4&type=tcp#StormCDN
-vless://a2b3c4d5-e6f7-4890-a123-222233334444@2.26.83.254:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=vk.ru&fp=chrome&pbk=ywMlr1H6CC-pl261wojwLWRl5fRmvuwvHZfgS8Bzr1E&sid=c8e2b1f4&type=tcp#ThunderCDN
-vless://b3c4d5e6-f7a8-4901-b234-333344445555@2.26.83.254:636?encryption=none&flow=xtls-rprx-vision&security=reality&sni=vk.ru&fp=chrome&pbk=ywMlr1H6CC-pl261wojwLWRl5fRmvuwvHZfgS8Bzr1E&sid=b7c3d9e1&type=tcp#NexusVPN
-vless://c1436e6f-1627-4eff-9e6f-f9b5cd925f6b@161.104.88.180:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=vk.ru&fp=chrome&pbk=ywMlr1H6CC-pl261wojwLWRl5fRmvuwvHZfgS8Bzr1E&sid=a1b2c3d4&type=tcp#IvankoCDN
-vless://25f0c9bc-f00f-4fe6-b53b-2b6f04143df7@161.104.88.180:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=vk.ru&fp=chrome&pbk=ywMlr1H6CC-pl261wojwLWRl5fRmvuwvHZfgS8Bzr1E&sid=c8e2b1f4&type=tcp#ChadwickCDN
-vless://9f5c5a04-01dd-4a32-ad80-b800e3b4539c@161.104.88.180:636?encryption=none&flow=xtls-rprx-vision&security=reality&sni=vk.ru&fp=chrome&pbk=ywMlr1H6CC-pl261wojwLWRl5fRmvuwvHZfgS8Bzr1E&sid=b7c3d9e1&type=tcp#ManzerVPN
-vless://a1f2e3d4-b5c6-4789-a012-111122223333@138.16.178.155:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=vk.ru&fp=chrome&pbk=ywMlr1H6CC-pl261wojwLWRl5fRmvuwvHZfgS8Bzr1E&sid=f1e2d3c4&type=tcp#FortressCDN
-vless://b2e3f4a5-c6d7-4890-b123-222233334444@138.16.178.155:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=vk.ru&fp=chrome&pbk=ywMlr1H6CC-pl261wojwLWRl5fRmvuwvHZfgS8Bzr1E&sid=b2a3c4d5&type=tcp#BastionCDN
-vless://c3f4a5b6-d7e8-4901-c234-333344445555@138.16.178.155:636?encryption=none&flow=xtls-rprx-vision&security=reality&sni=vk.ru&fp=chrome&pbk=ywMlr1H6CC-pl261wojwLWRl5fRmvuwvHZfgS8Bzr1E&sid=c3b4d5e6&type=tcp#CitadelVPN
+vless://c1436e6f-1627-4eff-9e6f-f9b5cd925f6b@161.104.88.180:443?encryption=none&security=reality&sni=vk.ru&fp=chrome&pbk=ywMlr1H6CC-pl261wojwLWRl5fRmvuwvHZfgS8Bzr1E&sid=a1b2c3d4&type=tcp#IvankoCDN
+vless://25f0c9bc-f00f-4fe6-b53b-2b6f04143df7@161.104.88.180:8443?encryption=none&security=reality&sni=vk.ru&fp=chrome&pbk=ywMlr1H6CC-pl261wojwLWRl5fRmvuwvHZfgS8Bzr1E&sid=c8e2b1f4&type=tcp#ChadwickCDN
+vless://9f5c5a04-01dd-4a32-ad80-b800e3b4539c@161.104.88.180:636?encryption=none&security=reality&sni=vk.ru&fp=chrome&pbk=ywMlr1H6CC-pl261wojwLWRl5fRmvuwvHZfgS8Bzr1E&sid=b7c3d9e1&type=tcp#ManzerVPN
+tuic://90384b8a-4be3-466d-bacb-4d0cbbc439fd:e454e24e87af48ed@161.104.88.180:4443?congestion_control=bbr&sni=cdn.cloudflare.com&alpn=h3&insecure=1&udp_relay_mode=native&zero_rtt_handshake=1&heartbeat=1s#HelleinVPN
+hy2://efc9d2890a8a43e2@161.104.88.180:24443?insecure=1&sni=cdn.cloudflare.com&obfs=salamander&obfs-password=60ca66c44d71#OptamanVPN
+tuic://90384b8a-4be3-466d-bacb-4d0cbbc439fd:e454e24e87af48ed@161.104.88.180:4443?congestion_control=bbr&sni=www.cloudflare.com&alpn=h3&insecure=1&udp_relay_mode=native&zero_rtt_handshake=1&heartbeat=1s#HelleinVPN-d2
+hy2://efc9d2890a8a43e2@161.104.88.180:24443?insecure=1&sni=www.cloudflare.com&obfs=salamander&obfs-password=60ca66c44d71#OptamanVPN-d2
+tuic://90384b8a-4be3-466d-bacb-4d0cbbc439fd:e454e24e87af48ed@161.104.88.180:4443?congestion_control=bbr&sni=speed.cloudflare.com&alpn=h3&insecure=1&udp_relay_mode=native&zero_rtt_handshake=1&heartbeat=1s#HelleinVPN-d3
+hy2://efc9d2890a8a43e2@161.104.88.180:24443?insecure=1&sni=speed.cloudflare.com&obfs=salamander&obfs-password=60ca66c44d71#OptamanVPN-d3
+vless://f1a2b3c4-d5e6-4789-f012-111122223333@nl-jb1net.hs.vc:443?encryption=none&security=reality&sni=vk.ru&fp=chrome&pbk=ywMlr1H6CC-pl261wojwLWRl5fRmvuwvHZfgS8Bzr1E&sid=a1b2c3d4&type=tcp#P2G-StormCDN
+vless://a2b3c4d5-e6f7-4890-a123-222233334444@nl-jb1net.hs.vc:8443?encryption=none&security=reality&sni=vk.ru&fp=chrome&pbk=ywMlr1H6CC-pl261wojwLWRl5fRmvuwvHZfgS8Bzr1E&sid=c8e2b1f4&type=tcp#P2G-ThunderCDN
+vless://b3c4d5e6-f7a8-4901-b234-333344445555@nl-jb1net.hs.vc:636?encryption=none&security=reality&sni=vk.ru&fp=chrome&pbk=ywMlr1H6CC-pl261wojwLWRl5fRmvuwvHZfgS8Bzr1E&sid=b7c3d9e1&type=tcp#P2G-NexusVPN
+tuic://e1f2a3b4-c5d6-4789-e012-3456789abcde:d8e9f0a1b2c34567@nl-jb1net.hs.vc:4443?congestion_control=bbr&sni=cdn.cloudflare.com&alpn=h3&insecure=1&udp_relay_mode=native&zero_rtt_handshake=1&heartbeat=1s#P2G-VanguardVPN
+hy2://p2g8f4e2a1c95670@nl-jb1net.hs.vc:24443?insecure=1&sni=cdn.cloudflare.com&obfs=salamander&obfs-password=83d7f1e9b4c60258#P2G-AegisVPN
+vless://a1f2e3d4-b5c6-4789-a012-111122223333@138.16.178.155:443?encryption=none&security=reality&sni=vk.ru&fp=chrome&pbk=ywMlr1H6CC-pl261wojwLWRl5fRmvuwvHZfgS8Bzr1E&sid=f1e2d3c4&type=tcp#EU-FortressCDN
+vless://b2e3f4a5-c6d7-4890-b123-222233334444@138.16.178.155:8443?encryption=none&security=reality&sni=vk.ru&fp=chrome&pbk=ywMlr1H6CC-pl261wojwLWRl5fRmvuwvHZfgS8Bzr1E&sid=b2a3c4d5&type=tcp#EU-BastionCDN
+vless://c3f4a5b6-d7e8-4901-c234-333344445555@138.16.178.155:636?encryption=none&security=reality&sni=vk.ru&fp=chrome&pbk=ywMlr1H6CC-pl261wojwLWRl5fRmvuwvHZfgS8Bzr1E&sid=c3b4d5e6&type=tcp#EU-CitadelVPN
+tuic://f4e8a2c1-9b3d-4e7f-a6c5-2d8e1f0b4a93:c7d9e2f4a1b85630@138.16.178.155:4443?congestion_control=bbr&sni=cdn.cloudflare.com&alpn=h3&insecure=1&udp_relay_mode=native&zero_rtt_handshake=1&heartbeat=1s#EU-RampartVPN
+hy2://a8f3c2e1b9d04756@138.16.178.155:24443?insecure=1&sni=cdn.cloudflare.com&obfs=salamander&obfs-password=71b4d5e6f8a90213#EU-BulwarkVPN
