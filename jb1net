@@ -1,8 +1,8 @@
 #profile-title: JB1NET
 #profile-update-interval: 1
-#revision: 1784540566
-#jb1net-sub: cdn=https://cdn-jb1net.d-med.ru:2095/jb1net;wl=https://cdn-jb1net.d-med.ru:2095/jb1net;alt=https://161.104.88.180:2095/jb1net;ip=161.104.88.180:2095;gh=https://raw.githack.com/jb1net/jb1pro/main/ns1-pm.jb1net.io;mirror=https://raw.githubusercontent.com/jb1net/jb1pro/refs/heads/main/ns1-pm.jb1net.io;upd=60;iso=2026-07-20T09:42:46Z
-#jb1net-auto: rev=1784540566;poll=1m;whitelist=443|2095;plate=vk-kittenx;fetch=foreground|start|open|connect;apply=1;reconn=update|degrade|fail|net|stall|signal;hard-reconn=1;stall=30s;signal-hang=45s;same-profile-first;jitter=5-30;cd=60;max=12/h;soft=1
+#revision: 1784541710
+#jb1net-sub: cdn=https://cdn-jb1net.d-med.ru:2095/jb1net;wl=https://cdn-jb1net.d-med.ru:2095/jb1net;alt=https://161.104.88.180:2095/jb1net;ip=161.104.88.180:2095;gh=https://raw.githack.com/jb1net/jb1pro/main/ns1-pm.jb1net.io;mirror=https://raw.githubusercontent.com/jb1net/jb1pro/refs/heads/main/ns1-pm.jb1net.io;upd=60;iso=2026-07-20T10:01:50Z
+#jb1net-auto: rev=1784541710;poll=1m;whitelist=443|2095;plate=vk-kittenx;fetch=foreground|start|open|connect;apply=1;reconn=update|degrade|fail|net|stall|signal;hard-reconn=1;stall=30s;signal-hang=45s;same-profile-first;jitter=5-30;cd=60;max=12/h;soft=1
 #default-profile: IvankoCDN
 #failover-order: IvankoCDN,ChadwickCDN,ManzerVPN,HelleinVPN,OptamanVPN
 #latency-ms: IvankoCDN=712,ChadwickCDN=601,ManzerVPN=899,HelleinVPN=1937,OptamanVPN=1937
@@ -10,9 +10,9 @@
 #health-check-timeout: 20000
 #auto-failover: false
 #jb1net-key: I=IvankoCDN,C=ChadwickCDN,M=ManzerVPN,H=HelleinVPN,O=OptamanVPN
-#jb1net-stack: tor,dns9053,privacy,9p,v11,tspu5,corner,mobile,legit,vk.ru,AS204490,kontel-plates,kontel-max,443-first,edge-ready,probe-heal
-#jb1net-route: fo=I,C,M,H,O;tcp=I,C,M;udp=H,O;decoy=cdn.cloudflare.com|www.cloudflare.com|speed.cloudflare.com;def=I;636-last;sni=vk.ru;mimic-cdn;host=161.104.88.180
-#jb1net-client: autofail,reconnect,hard-reconn,degrade@2500,signal-stuck=45s,stall-restart=30s,hc=45/20s,maxfo=2,cd=120,jitter=10-45,hold=I,no-cycle,fp=chrome,keep=45,udp-hb=1,smart-udp=auto,tor-prewarm=2,tcp-timeout=30s,signal-hang=45s,roam,handoff,net-change=reconnect,handoff-max=1
+#jb1net-stack: tor,dns9053,privacy,9p,legit,vk.ru,AS204490,kontel-plates,kontel-max,443-first,edge-ready,probe-heal
+#jb1net-route: fo=I,C,M,H,O;tcp=I,C,M;udp=H,O;decoy=cdn.cloudflare.com|www.cloudflare.com|speed.cloudflare.com;def=I;636-last;sni=vk.ru;host=161.104.88.180
+#jb1net-client: autofail,reconnect,degrade@2500,hc=60/20s,maxfo=2,cd=120,jitter=10-45,hold=I,no-cycle,fp=chrome,keep=45,udp-hb=1,hard-reconn,signal-stuck=45s,stall-restart=30s
 
 vless://c1436e6f-1627-4eff-9e6f-f9b5cd925f6b@161.104.88.180:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=vk.ru&fp=chrome&pbk=ywMlr1H6CC-pl261wojwLWRl5fRmvuwvHZfgS8Bzr1E&sid=a1b2c3d4&type=tcp#IvankoCDN
 vless://25f0c9bc-f00f-4fe6-b53b-2b6f04143df7@161.104.88.180:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=vk.ru&fp=chrome&pbk=ywMlr1H6CC-pl261wojwLWRl5fRmvuwvHZfgS8Bzr1E&sid=c8e2b1f4&type=tcp#ChadwickCDN
