@@ -1,30 +1,13 @@
 #profile-title: JB1NET
-#revision: 1784592797
-#jb1net-sub: wl=https://cdn-jb1net.d-med.ru:2095/jb1net;alt=https://nl-jb1net.hs.vc:2095/contell;gh=https://raw.githubusercontent.com/jb1net/jb1pro/refs/heads/main/ns1-pm.jb1net.io;mirror=https://raw.githack.com/jb1net/jb1pro/main/ns1-pm.jb1net.io;upd=300;cascade=1;nodes=3
-#jb1net-auto: rev=cascade;poll=1m;whitelist=443|636|8443|2095;plate=vk-kittenx;fetch=foreground|start|open|connect;apply=1;reconn=update|degrade|fail|net|stall|signal;hard-reconn=1;stall=30s;signal-hang=45s;same-profile-first;jitter=5-30;cd=60;max=12/h;soft=1
-#default-profile: IvankoCDN
-#failover-order: IvankoCDN,ChadwickCDN,ManzerVPN,P2G-StormCDN,P2G-ThunderCDN,P2G-NexusVPN,EU-FortressCDN,EU-BastionCDN,EU-CitadelVPN,HelleinVPN,OptamanVPN
-#latency-ms: IvankoCDN=712,ChadwickCDN=601,ManzerVPN=899,HelleinVPN=1937,OptamanVPN=1937
-#health-check-interval: 0
-#health-check-timeout: 20000
-#auto-failover: false
-#jb1net-key: I=IvankoCDN,C=ChadwickCDN,M=ManzerVPN,H=HelleinVPN,O=OptamanVPN
-#jb1net-stack: tor,dns9053,privacy,cascade,tcp-first,vk.ru,kontel-max,443-first
-#jb1net-route: fo=I,C,M,P2G,EU,H,O;tcp=I,C,M;udp=H,O;sni=vk.ru;mimic-cdn;host=161.104.88.180
-#jb1net-client: karing,ios,macos,android
+#default-profile: StormCDN
+#failover-order: StormCDN,ThunderCDN,NexusVPN,IvankoCDN,ChadwickCDN,ManzerVPN,FortressCDN,BastionCDN,CitadelVPN
 
+vless://f1a2b3c4-d5e6-4789-f012-111122223333@2.26.83.254:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=vk.ru&fp=chrome&pbk=ywMlr1H6CC-pl261wojwLWRl5fRmvuwvHZfgS8Bzr1E&sid=a1b2c3d4&type=tcp#StormCDN
+vless://a2b3c4d5-e6f7-4890-a123-222233334444@2.26.83.254:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=vk.ru&fp=chrome&pbk=ywMlr1H6CC-pl261wojwLWRl5fRmvuwvHZfgS8Bzr1E&sid=c8e2b1f4&type=tcp#ThunderCDN
+vless://b3c4d5e6-f7a8-4901-b234-333344445555@2.26.83.254:636?encryption=none&flow=xtls-rprx-vision&security=reality&sni=vk.ru&fp=chrome&pbk=ywMlr1H6CC-pl261wojwLWRl5fRmvuwvHZfgS8Bzr1E&sid=b7c3d9e1&type=tcp#NexusVPN
 vless://c1436e6f-1627-4eff-9e6f-f9b5cd925f6b@161.104.88.180:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=vk.ru&fp=chrome&pbk=ywMlr1H6CC-pl261wojwLWRl5fRmvuwvHZfgS8Bzr1E&sid=a1b2c3d4&type=tcp#IvankoCDN
 vless://25f0c9bc-f00f-4fe6-b53b-2b6f04143df7@161.104.88.180:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=vk.ru&fp=chrome&pbk=ywMlr1H6CC-pl261wojwLWRl5fRmvuwvHZfgS8Bzr1E&sid=c8e2b1f4&type=tcp#ChadwickCDN
 vless://9f5c5a04-01dd-4a32-ad80-b800e3b4539c@161.104.88.180:636?encryption=none&flow=xtls-rprx-vision&security=reality&sni=vk.ru&fp=chrome&pbk=ywMlr1H6CC-pl261wojwLWRl5fRmvuwvHZfgS8Bzr1E&sid=b7c3d9e1&type=tcp#ManzerVPN
-tuic://90384b8a-4be3-466d-bacb-4d0cbbc439fd:e454e24e87af48ed@161.104.88.180:4443?congestion_control=bbr&sni=cdn.cloudflare.com&alpn=h3&insecure=1&udp_relay_mode=native&zero_rtt_handshake=1&heartbeat=1s#HelleinVPN
-hy2://efc9d2890a8a43e2@161.104.88.180:24443?insecure=1&sni=cdn.cloudflare.com&obfs=salamander&obfs-password=60ca66c44d71#OptamanVPN
-tuic://90384b8a-4be3-466d-bacb-4d0cbbc439fd:e454e24e87af48ed@161.104.88.180:4443?congestion_control=bbr&sni=www.cloudflare.com&alpn=h3&insecure=1&udp_relay_mode=native&zero_rtt_handshake=1&heartbeat=1s#HelleinVPN-d2
-hy2://efc9d2890a8a43e2@161.104.88.180:24443?insecure=1&sni=www.cloudflare.com&obfs=salamander&obfs-password=60ca66c44d71#OptamanVPN-d2
-tuic://90384b8a-4be3-466d-bacb-4d0cbbc439fd:e454e24e87af48ed@161.104.88.180:4443?congestion_control=bbr&sni=speed.cloudflare.com&alpn=h3&insecure=1&udp_relay_mode=native&zero_rtt_handshake=1&heartbeat=1s#HelleinVPN-d3
-hy2://efc9d2890a8a43e2@161.104.88.180:24443?insecure=1&sni=speed.cloudflare.com&obfs=salamander&obfs-password=60ca66c44d71#OptamanVPN-d3
-vless://f1a2b3c4-d5e6-4789-f012-111122223333@2.26.83.254:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=vk.ru&fp=chrome&pbk=ywMlr1H6CC-pl261wojwLWRl5fRmvuwvHZfgS8Bzr1E&sid=a1b2c3d4&type=tcp#P2G-StormCDN
-vless://a2b3c4d5-e6f7-4890-a123-222233334444@2.26.83.254:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=vk.ru&fp=chrome&pbk=ywMlr1H6CC-pl261wojwLWRl5fRmvuwvHZfgS8Bzr1E&sid=c8e2b1f4&type=tcp#P2G-ThunderCDN
-vless://b3c4d5e6-f7a8-4901-b234-333344445555@2.26.83.254:636?encryption=none&flow=xtls-rprx-vision&security=reality&sni=vk.ru&fp=chrome&pbk=ywMlr1H6CC-pl261wojwLWRl5fRmvuwvHZfgS8Bzr1E&sid=b7c3d9e1&type=tcp#P2G-NexusVPN
-vless://a1f2e3d4-b5c6-4789-a012-111122223333@138.16.178.155:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=vk.ru&fp=chrome&pbk=ywMlr1H6CC-pl261wojwLWRl5fRmvuwvHZfgS8Bzr1E&sid=f1e2d3c4&type=tcp#EU-FortressCDN
-vless://b2e3f4a5-c6d7-4890-b123-222233334444@138.16.178.155:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=vk.ru&fp=chrome&pbk=ywMlr1H6CC-pl261wojwLWRl5fRmvuwvHZfgS8Bzr1E&sid=b2a3c4d5&type=tcp#EU-BastionCDN
-vless://c3f4a5b6-d7e8-4901-c234-333344445555@138.16.178.155:636?encryption=none&flow=xtls-rprx-vision&security=reality&sni=vk.ru&fp=chrome&pbk=ywMlr1H6CC-pl261wojwLWRl5fRmvuwvHZfgS8Bzr1E&sid=c3b4d5e6&type=tcp#EU-CitadelVPN
+vless://a1f2e3d4-b5c6-4789-a012-111122223333@138.16.178.155:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=vk.ru&fp=chrome&pbk=ywMlr1H6CC-pl261wojwLWRl5fRmvuwvHZfgS8Bzr1E&sid=f1e2d3c4&type=tcp#FortressCDN
+vless://b2e3f4a5-c6d7-4890-b123-222233334444@138.16.178.155:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=vk.ru&fp=chrome&pbk=ywMlr1H6CC-pl261wojwLWRl5fRmvuwvHZfgS8Bzr1E&sid=b2a3c4d5&type=tcp#BastionCDN
+vless://c3f4a5b6-d7e8-4901-c234-333344445555@138.16.178.155:636?encryption=none&flow=xtls-rprx-vision&security=reality&sni=vk.ru&fp=chrome&pbk=ywMlr1H6CC-pl261wojwLWRl5fRmvuwvHZfgS8Bzr1E&sid=c3b4d5e6&type=tcp#CitadelVPN
