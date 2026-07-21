@@ -1,7 +1,5 @@
-#profile-title: JB1NET
+#profile-title: JB1NET-VIP
 #revision: 1784600000
-#jb1net-sub: wl=https://161.104.88.180:2095/ns1-pm.jb1net.io;alt=https://161.104.88.180/ns1-pm.jb1net.io;gh=https://raw.githack.com/jb1net/jb1pro/main/ns1-pm.jb1net.io;mirror=https://raw.githubusercontent.com/jb1net/jb1pro/refs/heads/main/ns1-pm.jb1net.io;upd=300;iso=2026-07-21T18:46:40Z;standalone=1;host=161.104.88.180
-#jb1net-auto: rev=1784600000;poll=1m;whitelist=443|2095;plate=vk-kittenx;fetch=foreground|start|open|connect;apply=1;reconn=update|degrade|fail|net|stall|signal;hard-reconn=1;stall=30s;signal-hang=45s;same-profile-first;jitter=5-30;cd=60;max=12/h;soft=1
 #default-profile: IvankoCDN
 #failover-order: IvankoCDN,ChadwickCDN,ManzerVPN,HelleinVPN,OptamanVPN
 #latency-ms: IvankoCDN=712,ChadwickCDN=601,ManzerVPN=899,HelleinVPN=1937,OptamanVPN=1937
