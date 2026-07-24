@@ -1,24 +1,12 @@
-#profile-title: JB1NET-VIP
-#revision: 1784537533
-#jb1net-sub: wl=https://161.104.88.180/ns1-pm.jb1net.io;alt=https://161.104.88.180:2095/ns1-pm.jb1net.io;gh=https://raw.githack.com/jb1net/jb1pro/main/ns1-pm.jb1net.io;mirror=https://raw.githubusercontent.com/jb1net/jb1pro/refs/heads/main/ns1-pm.jb1net.io;upd=300;iso=2026-07-20T08:52:13Z
-#jb1net-auto: rev=1784537533;poll=5m;whitelist=443|2095;plate=vk-kittenx;fetch=start|open|connect;apply=1;reconn=update|degrade|fail|net;same-profile-first;jitter=15-60;cd=90;max=6/h;soft=1
-#default-profile: IvankoCDN
-#failover-order: IvankoCDN,ChadwickCDN,ManzerVPN,HelleinVPN,OptamanVPN
-#latency-ms: IvankoCDN=712,ChadwickCDN=601,ManzerVPN=899,HelleinVPN=1937,OptamanVPN=1937
-#health-check-interval: 45
-#health-check-timeout: 20000
-#auto-failover: true
-#jb1net-key: I=IvankoCDN,C=ChadwickCDN,M=ManzerVPN,H=HelleinVPN,O=OptamanVPN
-#jb1net-stack: tor,dns9053,privacy,9p,v11,tspu5,corner,mobile,legit,vk.ru,AS204490,kontel-plates,kontel-max,443-first,edge-ready,probe-heal
-#jb1net-route: fo=I,C,M,H,O;tcp=I,C,M;udp=H,O;decoy=cdn.cloudflare.com|www.cloudflare.com|speed.cloudflare.com;def=I;636-last;sni=vk.ru;mimic-cdn;host=161.104.88.180
-#jb1net-client: autofail,reconnect,degrade@2500,hc=45/20s,maxfo=2,cd=120,jitter=10-45,hold=I,no-cycle,fp=chrome,keep=45,udp-hb=1,smart-udp=auto,tor-prewarm=2,tcp-timeout=30s,roam,handoff,net-change=reconnect,handoff-max=1
+#profile-title: JB1NET
+#profile-update-interval: 1
+#profile-restart-interval: s
 
-vless://c1436e6f-1627-4eff-9e6f-f9b5cd925f6b@161.104.88.180:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=vk.ru&fp=chrome&pbk=ywMlr1H6CC-pl261wojwLWRl5fRmvuwvHZfgS8Bzr1E&sid=a1b2c3d4&type=tcp#IvankoCDN
-vless://25f0c9bc-f00f-4fe6-b53b-2b6f04143df7@161.104.88.180:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=vk.ru&fp=chrome&pbk=ywMlr1H6CC-pl261wojwLWRl5fRmvuwvHZfgS8Bzr1E&sid=c8e2b1f4&type=tcp#ChadwickCDN
-vless://9f5c5a04-01dd-4a32-ad80-b800e3b4539c@161.104.88.180:636?encryption=none&flow=xtls-rprx-vision&security=reality&sni=vk.ru&fp=chrome&pbk=ywMlr1H6CC-pl261wojwLWRl5fRmvuwvHZfgS8Bzr1E&sid=b7c3d9e1&type=tcp#ManzerVPN
-tuic://90384b8a-4be3-466d-bacb-4d0cbbc439fd:e454e24e87af48ed@161.104.88.180:4443?congestion_control=bbr&sni=cdn.cloudflare.com&alpn=h3&insecure=1&udp_relay_mode=native&zero_rtt_handshake=1&heartbeat=1s#HelleinVPN
-hy2://efc9d2890a8a43e2@161.104.88.180:24443?insecure=1&sni=cdn.cloudflare.com&obfs=salamander&obfs-password=60ca66c44d71#OptamanVPN
-tuic://90384b8a-4be3-466d-bacb-4d0cbbc439fd:e454e24e87af48ed@161.104.88.180:4443?congestion_control=bbr&sni=www.cloudflare.com&alpn=h3&insecure=1&udp_relay_mode=native&zero_rtt_handshake=1&heartbeat=1s#HelleinVPN-d2
-hy2://efc9d2890a8a43e2@161.104.88.180:24443?insecure=1&sni=www.cloudflare.com&obfs=salamander&obfs-password=60ca66c44d71#OptamanVPN-d2
-tuic://90384b8a-4be3-466d-bacb-4d0cbbc439fd:e454e24e87af48ed@161.104.88.180:4443?congestion_control=bbr&sni=speed.cloudflare.com&alpn=h3&insecure=1&udp_relay_mode=native&zero_rtt_handshake=1&heartbeat=1s#HelleinVPN-d3
-hy2://efc9d2890a8a43e2@161.104.88.180:24443?insecure=1&sni=speed.cloudflare.com&obfs=salamander&obfs-password=60ca66c44d71#OptamanVPN-d3
+vless://d2312c14-80da-4ab0-ae9b-5dffea12d647@nl-jb1net.hs.vc:443?encryption=none&type=tcp&security=reality&pbk=9U0bTvS3206AlaHu1nwx8EpYWH9xnWsJqelXs1R_fXc&sid=cf01a1b2&sni=yastatic.net&fp=chrome&spx=%2F#IvankoVPN
+vless://d2312c14-80da-4ab0-ae9b-5dffea12d647@nl-jb1net.hs.vc:8443?encryption=none&type=grpc&serviceName=grpc&security=reality&pbk=9U0bTvS3206AlaHu1nwx8EpYWH9xnWsJqelXs1R_fXc&sid=a1b2c3d4&sni=www.sberbank.ru&fp=chrome&spx=%2F#ManzerVPN
+vless://d2312c14-80da-4ab0-ae9b-5dffea12d647@nl-jb1net.hs.vc:4443?encryption=none&type=httpupgrade&path=%2Fapi%2Fv2%2Fupdates&security=reality&pbk=9U0bTvS3206AlaHu1nwx8EpYWH9xnWsJqelXs1R_fXc&sid=ee943735&sni=st.max.ru&fp=chrome&spx=%2F#OptamanVPN
+hysteria2://e3906e42674c3ebddbea297dee90e2f9@nl-jb1net.hs.vc:9443?downmbps=0&upmbps=0&security=tls&sni=nl-jb1net.hs.vc&fastopen=0#ChadwickCDN
+tuic://b33602af-7fb7-4b5b-a170-4f9d62f736d1:07928eaa3c3b3dfa48b0db22bb6647fe@nl-jb1net.hs.vc:9453?security=tls&sni=nl-jb1net.hs.vc&congestion_control=bbr&udp_relay_mode=native#HelleinCDN
+
+#net.core.default_qdisc=cake
+#net.ipv4.tcp_congestion_control=bbr
