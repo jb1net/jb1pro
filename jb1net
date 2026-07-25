@@ -2,12 +2,12 @@
 #profile-update-interval: 1
 #profile-restart-interval: s
 
-vless://e9757d32-eced-41d4-83f7-16d4bbe56101@cp1.jb1net.d-med.ru:443?encryption=none&security=reality&sni=sun9-38.userapi.com&fp=chrome&pbk=z3L3NM71G0Q28nqcyJDpjwRP7jzW9mxHc1JIyGf3QTw&sid=6ec9726b&type=tcp#IvankoVPN
 vless://e9757d32-eced-41d4-83f7-16d4bbe56101@cp1.jb1net.d-med.ru:8443?encryption=none&security=tls&sni=cp1.jb1net.d-med.ru&fp=chrome&insecure=1&type=grpc&serviceName=cdn-grpc-v2#ManzerVPN
 vless://e9757d32-eced-41d4-83f7-16d4bbe56101@cp1.jb1net.d-med.ru:4443?encryption=none&security=tls&sni=cp1.jb1net.d-med.ru&fp=chrome&insecure=1&type=ws&path=%2Fws%2Fcdn&host=cloudcdn-m9-10.cdn.yandex.net#FortressCDN
 vless://e9757d32-eced-41d4-83f7-16d4bbe56101@cp1.jb1net.d-med.ru:9443?encryption=none&security=tls&sni=cp1.jb1net.d-med.ru&fp=chrome&insecure=1&type=httpupgrade&host=st.ozone.ru&path=%2Fapi%2Fv3%2Fsync#OptamanVPN
 hy2://0LlDW2cdqlUCDzIyNnPKdWijpVmZ3df8@cp1.jb1net.d-med.ru:9453?insecure=1&sni=cp1.jb1net.d-med.ru#ChadwickCDN
 tuic://0157cb0f-65fc-4ded-a737-e40d0fdf07b6:uheZbxeNTgyGMINYaKaw5CHHzQ3SfckJ@cp1.jb1net.d-med.ru:22443?insecure=1&sni=cp1.jb1net.d-med.ru&congestion_control=bbr#HelleinCDN
+vless://e9757d32-eced-41d4-83f7-16d4bbe56101@138.16.178.155:8443?encryption=none&security=tls&sni=cp1.jb1net.d-med.ru&fp=chrome&insecure=1&type=grpc&serviceName=cdn-grpc-v2#ManzerVPN-IP
 
 #net.core.default_qdisc=cake
 #net.ipv4.tcp_congestion_control=bbr
