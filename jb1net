@@ -2,7 +2,7 @@
 #profile-update-interval: 1
 #profile-restart-interval: s
 
-vless://e9757d32-eced-41d4-83f7-16d4bbe56101@178.236.27.87:8443?encryption=none&security=tls&sni=cdn-jb1net.d-med.ru&fp=chrome&type=grpc&serviceName=cdn-grpc-v2&alpn=h2#ManzerVPN
+vless://e9757d32-eced-41d4-83f7-16d4bbe56101@178.236.27.87:8443?encryption=none&security=tls&sni=cdn-jb1net.d-med.ru&fp=chrome&type=httpupgrade&path=%2Fapi%2Fv2%2Fmanzer&host=cdn-jb1net.d-med.ru#ManzerVPN
 vless://e9757d32-eced-41d4-83f7-16d4bbe56101@178.236.27.87:9443?encryption=none&security=tls&sni=cdn-jb1net.d-med.ru&fp=chrome&type=httpupgrade&path=%2Fapi%2Fv3%2Fsync&host=cdn-jb1net.d-med.ru#OptamanVPN
 vless://e9757d32-eced-41d4-83f7-16d4bbe56101@178.236.27.87:4443?encryption=none&security=tls&sni=cdn-jb1net.d-med.ru&fp=chrome&type=ws&path=%2Fws%2Fcdn&host=cdn-jb1net.d-med.ru#FortressCDN
 hysteria2://0LlDW2cdqlUCDzIyNnPKdWijpVmZ3df8@178.236.27.87:9453?sni=cdn-jb1net.d-med.ru&obfs=salamander&obfs-password=6ec9726b&alpn=h3#ChadwickCDN
