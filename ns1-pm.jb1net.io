@@ -1,12 +1,12 @@
-#profile-title: JB1NET
+#profile-title: JB1NET-VIP
 #profile-update-interval: 1
 #profile-restart-interval: s
 
-vless://0949e482-7aa6-4a97-8047-d4fbb7b85232@nl-jb1net.hs.vc:443?encryption=none&type=tcp&security=reality&pbk=9U0bTvS3206AlaHu1nwx8EpYWH9xnWsJqelXs1R_fXc&sid=cf01a1b2&sni=yastatic.net&fp=chrome&spx=%2F#IvankoVPN
-vless://60d040e3-094c-487c-a6d8-2e2162e15dd1@nl-jb1net.hs.vc:8443?encryption=none&type=grpc&serviceName=grpc&security=reality&pbk=9U0bTvS3206AlaHu1nwx8EpYWH9xnWsJqelXs1R_fXc&sid=a1b2c3d4&sni=www.sberbank.ru&fp=chrome&spx=%2F#ManzerVPN
-vless://603256c3-93e7-4260-9a20-7584aa00a6ee@nl-jb1net.hs.vc:4443?encryption=none&type=httpupgrade&path=%2Fapi%2Fv2%2Fupdates&security=reality&pbk=9U0bTvS3206AlaHu1nwx8EpYWH9xnWsJqelXs1R_fXc&sid=ee943735&sni=st.max.ru&fp=chrome&spx=%2F#OptamanVPN
-hysteria2://e3906e42674c3ebddbea297dee90e2f9@nl-jb1net.hs.vc:9443?downmbps=0&upmbps=0&security=tls&sni=nl-jb1net.hs.vc&fastopen=0#ChadwickCDN
-tuic://b33602af-7fb7-4b5b-a170-4f9d62f736d1:07928eaa3c3b3dfa48b0db22bb6647fe@nl-jb1net.hs.vc:9453?security=tls&sni=nl-jb1net.hs.vc&congestion_control=bbr&udp_relay_mode=native#HelleinCDN
+vless://e9757d32-eced-41d4-83f7-16d4bbe56101@178.236.27.87:8443?encryption=none&security=tls&sni=cdn-jb1net.d-med.ru&fp=chrome&type=grpc&serviceName=cdn-grpc-v2&pcs=80e9e4f44621b26cd650415ed82a309bba3a89e28e6f3f7ce1f400b86d84f44b&allowInsecure=1&insecure=1#ManzerVPN
+vless://e9757d32-eced-41d4-83f7-16d4bbe56101@178.236.27.87:9443?encryption=none&security=tls&sni=cdn-jb1net.d-med.ru&fp=chrome&type=httpupgrade&path=%2Fapi%2Fv3%2Fsync&host=cdn-jb1net.d-med.ru&pcs=80e9e4f44621b26cd650415ed82a309bba3a89e28e6f3f7ce1f400b86d84f44b&allowInsecure=1&insecure=1#OptamanVPN
+vless://e9757d32-eced-41d4-83f7-16d4bbe56101@178.236.27.87:4443?encryption=none&security=tls&sni=cdn-jb1net.d-med.ru&fp=chrome&type=ws&path=%2Fws%2Fcdn&host=cdn-jb1net.d-med.ru&pcs=80e9e4f44621b26cd650415ed82a309bba3a89e28e6f3f7ce1f400b86d84f44b&allowInsecure=1&insecure=1#FortressCDN
+hysteria2://0LlDW2cdqlUCDzIyNnPKdWijpVmZ3df8@178.236.27.87:9453?sni=cdn-jb1net.d-med.ru&obfs=salamander&obfs-password=6ec9726b&insecure=1&allowInsecure=1&pinSHA256=80e9e4f44621b26cd650415ed82a309bba3a89e28e6f3f7ce1f400b86d84f44b#ChadwickCDN
+tuic://0157cb0f-65fc-4ded-a737-e40d0fdf07b6:uheZbxeNTgyGMINYaKaw5CHHzQ3SfckJ@178.236.27.87:22443?congestion_control=bbr&sni=cdn-jb1net.d-med.ru&alpn=h3&udp_relay_mode=native&insecure=1&allowInsecure=1&pcs=80e9e4f44621b26cd650415ed82a309bba3a89e28e6f3f7ce1f400b86d84f44b#HelleinCDN
 
 #net.core.default_qdisc=cake
 #net.ipv4.tcp_congestion_control=bbr
