@@ -2,10 +2,10 @@
 #profile-update-interval: 1
 #profile-restart-interval: s
 
-vless://e9757d32-eced-41d4-83f7-16d4bbe56101@178.236.27.87:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=://userapi.com&fp=chrome&pbk=z3L3NM71G0Q28nqcyJDpjwRP7jzW9mxHc1JIyGf3QTw&sid=6ec9726b#IvankoVPN
-vless://e9757d32-eced-41d4-83f7-16d4bbe56101@178.236.27.87:8443?encryption=none&security=tls&sni=://cloudflare.com&fp=chrome&type=grpc&serviceName=cdn-grpc-v2#ManzerVPN
-vless://e9757d32-eced-41d4-83f7-16d4bbe56101@178.236.27.87:9443?encryption=none&security=tls&sni=://cloudflare.com&fp=chrome&type=httpupgrade#OptamanVPN
-vless://e9757d32-eced-41d4-83f7-16d4bbe56101@178.236.27.87:4443?encryption=none&security=tls&sni=://cloudflare.com&fp=chrome&type=ws#FortressCDN
+vless://e9757d32-eced-41d4-83f7-16d4bbe56101@178.236.27.87:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=sun9-38.userapi.com&fp=chrome&pbk=z3L3NM71G0Q28nqcyJDpjwRP7jzW9mxHc1JIyGf3QTw&sid=6ec9726b#IvankoVPN
+vless://e9757d32-eced-41d4-83f7-16d4bbe56101@178.236.27.87:8443?encryption=none&security=tls&sni=cdn.cloudflare.com&fp=chrome&type=grpc&serviceName=cdn-grpc-v2#ManzerVPN
+vless://e9757d32-eced-41d4-83f7-16d4bbe56101@178.236.27.87:9443?encryption=none&security=tls&sni=cdn.cloudflare.com&fp=chrome&type=httpupgrade#OptamanVPN
+vless://e9757d32-eced-41d4-83f7-16d4bbe56101@178.236.27.87:4443?encryption=none&security=tls&sni=cdn.cloudflare.com&fp=chrome&type=ws#FortressCDN
 hysteria2://0LlDW2cdqlUCDzIyNnPKdWijpVmZ3df8@178.236.27.87:9453?insecure=1&obfs=salamander&obfs-password=6ec9726b#ChadwickCDN
 tuic://0157cb0f-65fc-4ded-a737-e40d0fdf07b6:uheZbxeNTgyGMINYaKaw5CHHzQ3SfckJ@178.236.27.87:22443?congestion_control=cubic&alpn=h3&insecure=1#HelleinCDN
 
