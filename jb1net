@@ -4,8 +4,6 @@
 
 vless://e9757d32-eced-41d4-83f7-16d4bbe56101@178.236.27.87:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=web.max.ru&fp=chrome&pbk=z3L3NM71G0Q28nqcyJDpjwRP7jzW9mxHc1JIyGf3QTw&sid=6ec9726b&type=tcp#IvankoVPN
 vless://e9757d32-eced-41d4-83f7-16d4bbe56101@178.236.27.87:5222?encryption=none&flow=xtls-rprx-vision&security=reality&sni=m.vk.ru&fp=chrome&pbk=z3L3NM71G0Q28nqcyJDpjwRP7jzW9mxHc1JIyGf3QTw&sid=6ec9726b&type=tcp#ManzerVPN
-hysteria2://0LlDW2cdqlUCDzIyNnPKdWijpVmZ3df8@178.236.27.87:443?security=tls&sni=cdn-jb1net.d-med.ru&obfs=salamander&obfs-password=Hx7mQ9wK2pL4nR6vY1cB8dF0gJ3sA5uE&alpn=h3#ChadwickCDN
-tuic://0157cb0f-65fc-4ded-a737-e40d0fdf07b6:uheZbxeNTgyGMINYaKaw5CHHzQ3SfckJ@178.236.27.87:5222?security=tls&congestion_control=bbr&sni=cdn-jb1net.d-med.ru&alpn=h3&udp_relay_mode=native#HelleinCDN
 
 #net.core.default_qdisc=cake
 #net.ipv4.tcp_congestion_control=bbr
