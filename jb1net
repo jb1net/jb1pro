@@ -2,8 +2,7 @@
 #profile-update-interval: 1
 #profile-restart-interval: s
 
-vless://e9757d32-eced-41d4-83f7-16d4bbe56101@178.236.27.87:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=web.max.ru&fp=chrome&pbk=z3L3NM71G0Q28nqcyJDpjwRP7jzW9mxHc1JIyGf3QTw&sid=6ec9726b&type=tcp#IvankoVPN
-vless://e9757d32-eced-41d4-83f7-16d4bbe56101@178.236.27.87:5222?encryption=none&flow=xtls-rprx-vision&security=reality&sni=m.vk.ru&fp=chrome&pbk=z3L3NM71G0Q28nqcyJDpjwRP7jzW9mxHc1JIyGf3QTw&sid=6ec9726b&type=tcp#ManzerVPN
+-
 
 #net.core.default_qdisc=cake
 #net.ipv4.tcp_congestion_control=bbr
